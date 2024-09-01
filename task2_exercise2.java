@@ -12,13 +12,14 @@ public class task2_exercise2 {
             System.out.print(arr[i]+" ");   
         }
         
+        int insert=250;
         int p=2;
         for(int i=arr.length-1; i>p; i--){
                arr[i]=arr[i-1];
         }
         
-        int insert=250;
-        arr[0]=insert;
+        
+        arr[p]=insert;
         System.out.println("\n\nAfter insertion");
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");   
